@@ -48,9 +48,17 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
 
     <table width="100%" cellpadding="5">
         <tr>
-            <td>First Name:</td>
-            <td><input type="text" name="firstname"></td>
-        </tr>
+    <td>First Name:</td>
+    <td>
+        <input type="text" name="firstname" maxlength="30" required>
+
+        Middle Initial:
+        <input type="text" name="middleinitial" maxlength="1">
+
+        Last Name:
+        <input type="text" name="lastname" maxlength="30" required>
+    </td>
+</tr>
     </table>
 
 </form>
