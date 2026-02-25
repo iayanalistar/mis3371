@@ -6,3 +6,28 @@ Date last edited:
 Version: 1.0
 Description: 
 -->
+
+<div id="header">
+    <table width="100%">
+        <tr>
+            <td>
+                <img src="logo.png" alt="ZinoCare Logo" width="100">
+            </td>
+
+            <td>
+                <h1>ZinoCare Group</h1>
+            </td>
+
+            <td align="right">
+                Today is:
+                <span id="today"></span>
+            </td>
+        </tr>
+    </table>
+  
+   <script>
+    var today = new Date();
+    document.getElementById("today").innerHTML = today.toDateString();
+  </script>
+  
+</div>
