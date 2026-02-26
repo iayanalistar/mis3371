@@ -40,26 +40,34 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
         document.getElementById("today").innerHTML = today.toDateString();
       </script>
       
-    </div>
-
-        <form action="thankyou.html" method="post">
-
-    <h2>Patient Registration Form</h2>
-
-    <table width="100%" cellpadding="5">
-        <tr>
-    <td>First Name:</td>
-    <td>
-        <input type="text" name="firstname" maxlength="30" required>
-
-        Middle Initial:
-        <input type="text" name="middleinitial" maxlength="1">
-
-        Last Name:
-        <input type="text" name="lastname" maxlength="30" required>
-    </td>
-</tr>
-    </table>
+        </div>
+    
+            <form action="thankyou.html" method="post">
+    
+        <h2>Patient Registration Form</h2>
+    
+        <table width="100%" cellpadding="5">
+            <tr>
+        <td>First Name:</td>
+        <td>
+            <input type="text" name="firstname" maxlength="30" required>
+    
+            Middle Initial:
+            <input type="text" name="middleinitial" maxlength="1">
+    
+            Last Name:
+            <input type="text" name="lastname" maxlength="30" required>
+        </td>     
+     </tr>
+            
+    <tr>
+        <td>Date of Birth:</td>
+            <td>
+            <input type="date" name="dob" required>
+        </td>
+    </tr>
+            
+  </table>
 
 </form>
         
