@@ -145,29 +145,55 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
             <option value="WY">Wyoming</option>
             <option value="PR">Puerto Rico</option>
         </select>
-    </td>
-</tr>
+        </td>
+    </tr>
+        
+        <tr>
+            <td>ZIP Code:</td>
+            <td>
+                <input type="text" name="zipcode" maxlength="10" placeholder="12345" required>
+            </td>
+        </tr>
+                
+        <tr>
+            <td>Phone Number:</td>
+                <td>
+                    <input type="tel" name="phone" placeholder="713-123-1234" maxlength="13" required>
+                </td>
+        </tr>
     
     <tr>
-        <td>ZIP Code:</td>
+        <td>Email Address:</td>
         <td>
-            <input type="text" name="zipcode" maxlength="10" placeholder="12345" required>
+            <input type="email" name="email" maxlength="50" required>
+        </td>
+    </tr>  
+                
+    <tr>
+        <td>Gender:</td>
+        <td>
+            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
         </td>
     </tr>
             
     <tr>
-        <td>Phone Number:</td>
+        <td>Have you been vaccinated?</td>
             <td>
-                <input type="tel" name="phone" placeholder="713-123-1234" maxlength="13" required>
+                <input type="radio" name="vaccinated" value="yes" required> Yes
+                <input type="radio" name="vaccinated" value="no"> No
             </td>
     </tr>
-
-<tr>
-    <td>Email Address:</td>
-    <td>
-        <input type="email" name="email" maxlength="50" required>
-    </td>
-</tr>  
+            
+    <tr>
+        <td>Do you have insurance?</td>
+            <td>
+                <input type="radio" name="insurance" value="yes" required> Yes
+                <input type="radio" name="insurance" value="no"> No
+        </td>
+    </tr>
+            
   </tr>
             
   </table>
