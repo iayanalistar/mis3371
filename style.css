@@ -64,5 +64,6 @@ a:visited {
 }
 
 .form-table {
-    border: 3px solid red;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #cccccc;
 }
