@@ -193,11 +193,66 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
                 <input type="radio" name="insurance" value="no"> No
         </td>
     </tr>
+
+    <tr>
+        <td>Medical History:</td>
+            <td>
+                <input type="checkbox" name="history" value="diabetes"> Diabetes
+                <input type="checkbox" name="history" value="hypertension"> Hypertension
+                <input type="checkbox" name="history" value="asthma"> Asthma
+                <input type="checkbox" name="history" value="heart"> Heart Disease
+                <input type="checkbox" name="history" value="covid"> COVID-19
+            </td>
+    </tr>
+
+    <tr>
+        <td>Describe Current Symptoms:</td>
+            <td>
+                <textarea name="symptoms" rows="3" cols="50"></textarea>
+            </td>
+    </tr>
+            
+    <tr>
+        <td>Health Rating (1-10):</td>
+            <td>
+                1
+                <input type="range" name="healthrating" min="1" max="10">
+                10
+        </td>
+    </tr>
+
+     <tr>
+        <td>Desired User ID:</td>
+            <td>
+                <input type="text" name="userid" maxlength="20" required>
+            </td>
+    </tr>
+    
+    <tr>
+        <td>Password:</td>
+            <td>
+                <input type="password" name="password" required>
+            </td>
+    </tr>
+    
+    <tr>
+        <td>Re-enter Password:</td>
+            <td>
+                <input type="password" name="repassword" required>
+            </td>
+    </tr> 
+            
+    <tr>
+        <td colspan="2" align="center">
+            <input type="reset" value="CLEAR AND START OVER">
+            <input type="submit" value="Submit">
+        </td>
+    </tr>
+            
             
   </tr>
             
   </table>
-
 </form>
         
 </body>
