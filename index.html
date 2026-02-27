@@ -17,6 +17,7 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!--Header-->
     <div id="header">
         <table width="100%">
             <tr>
@@ -34,7 +35,7 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
                 </td>
             </tr>
         </table>
-      
+      <!--Today's Date-->
        <script>
         var today = new Date();
         document.getElementById("today").innerHTML = today.toDateString();
@@ -45,7 +46,7 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
             <form action="thankyou.html">
     
         <h2>Patient Registration Form</h2>
-    
+    <!--Patient Name-->
         <table class="form-table" width="100%" cellpadding="5">
             <tr>
         <td>First Name:</td>
@@ -59,34 +60,34 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
             <input type="text" name="lastname" maxlength="30" required>
         </td>     
      </tr>
-            
+      <!--DOB-->      
     <tr>
         <td>Date of Birth:</td>
             <td>
             <input type="date" name="dob" required>
         </td>
     </tr>
-
+<!--SSN-->
      <tr>
          <td>Social Security:</td>
          <td>
             <input type="password" name="ssn" minlength="9" maxlength="11" required>
         </td>
-
+<!--Address-->
     <tr>
         <td>Street Address:</td>
         <td>
             <input type="text" name="street" maxlength="50" required>
         </td>
     </tr>
-    
+    <!--City-->
     <tr>
         <td>City:</td>
         <td>
             <input type="text" name="city" maxlength="30" required>
         </td>
     </tr>
-    
+    <!--State-->
     <tr>
     <td>State:</td>
     <td>
@@ -147,28 +148,28 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
         </select>
         </td>
     </tr>
-        
+        <!--Zip Code-->
         <tr>
             <td>ZIP Code:</td>
             <td>
                 <input type="text" name="zipcode" maxlength="10" placeholder="12345" required>
             </td>
         </tr>
-                
+       <!--Phone Number--> 
         <tr>
             <td>Phone Number:</td>
                 <td>
                     <input type="tel" name="phone" placeholder="713-123-1234" maxlength="13" required>
                 </td>
         </tr>
-    
+    <!--Email Adress-->
     <tr>
         <td>Email Address:</td>
         <td>
             <input type="email" name="email" maxlength="50" required>
         </td>
     </tr>  
-                
+    <!--Gender-->            
     <tr>
         <td>Gender:</td>
         <td>
@@ -177,7 +178,7 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
             <input type="radio" name="gender" value="other"> Other
         </td>
     </tr>
-            
+      <!--Radio Questions-->      
     <tr>
         <td>Have you been vaccinated?</td>
             <td>
@@ -204,14 +205,14 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
                 <input type="checkbox" name="history" value="covid"> COVID-19
             </td>
     </tr>
-
+<!--Open Ended Description-->
     <tr>
         <td>Describe Current Symptoms:</td>
             <td>
                 <textarea name="symptoms" rows="3" cols="50"></textarea>
             </td>
     </tr>
-            
+    <!--Health Rating Scale-->        
     <tr>
         <td>Health Rating (1-10):</td>
             <td>
@@ -220,14 +221,14 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
                 10
         </td>
     </tr>
-
+<!--User ID-->
      <tr>
         <td>Desired User ID:</td>
             <td>
                 <input type="text" name="userid" maxlength="20" required>
             </td>
     </tr>
-    
+    <!--User Password-->
     <tr>
         <td>Password:</td>
             <td>
@@ -254,7 +255,7 @@ Description: Website for patients of ZinoCare Group to register allowing to obta
             
   </table>
 </form>
-
+<!--Footer-->
     <div id="footer">
         <hr>
             <p>
